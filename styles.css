@@ -28,7 +28,7 @@ header button {
 }
 .wrapper-section {
   height: 50vh;
-  background-color: rgb(190, 221, 145);
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -101,4 +101,11 @@ header button {
 .about-us {
   font-weight: 900;
   color: gray;
+}
+.second-section hr {
+  border: none;
+  border-top: 2px solid black;
+  width: 20%;
+  margin: 0.5rem 1rem;
+  align-self: stretch;
 }
