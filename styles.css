@@ -26,3 +26,79 @@ header button {
   background-color: transparent;
   border-color: white;
 }
+.wrapper-section {
+  height: 50vh;
+  background-color: rgb(190, 221, 145);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.first-section {
+  height: 45vh;
+  width: 500px;
+  border: 2px solid black;
+  background-image: url(./images/img2.webp);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.square h1 {
+  text-align: center;
+}
+.square p {
+  margin-top: 0.5rem;
+  font-size: 8px;
+  text-align: center;
+  color: rgb(151, 147, 147);
+}
+
+.second-section {
+  height: 45vh;
+  width: 500px;
+  border: 2px solid black;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.second-section h1 {
+  margin-left: 1rem;
+}
+.second-section p {
+  margin-left: 1rem;
+  color: grey;
+}
+.second-section button {
+  height: 45px;
+  width: 180px;
+  color: black;
+  background-color: transparent;
+  border-color: black;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.about-us {
+  font-weight: 900;
+  color: gray;
+}
